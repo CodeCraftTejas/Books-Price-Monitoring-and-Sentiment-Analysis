@@ -7,6 +7,7 @@ satisfaction. The tool simplifies decision-making for readers and book enthusias
 a centralized way for sentiment-rich book exploration. 
 
 🚀 Project Goals
+
 🔍 Monitor book prices from an e-commerce platform (e.g., books.toscrape.com)
 
 💬 Collect and analyze user reviews using sentiment analysis
@@ -16,3 +17,6 @@ a centralized way for sentiment-rich book exploration.
 📊 Visualize data trends using plots
 
 🧠 Use machine learning models for review classification
+
+📘 Sentiment Analysis Overview
+This project utilizes Natural Language Processing (NLP) techniques to analyze user reviews of books. Using TextBlob, we compute sentiment polarity scores from review texts to classify them as positive, negative, or neutral. Additionally, star ratings (1–5) are mapped to sentiment labels to support weak supervision. For machine learning-based sentiment classification, TF-IDF is applied to convert textual data into feature vectors, and a RandomForestClassifier is trained on this transformed data to accurately predict the sentiment of new reviews. This combination of lexical and ML-based methods provides robust insights into reader opinions.
